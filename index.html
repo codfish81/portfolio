@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cade's Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="toggle-switch.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1><a href="index.html">Cade Hansen</a></h1>
+        <ul>
+          <li><a href="#recent-work">Work</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+      <div class="controls">
+        <label class="toggle-switch">
+          Dark Mode
+          <input type="checkbox" id="dark-mode-toggle">
+          <div class="toggle-switch-border">
+            <div class="toggle-switch-dot"></div>
+          </div>
+        </label>
+      </div>
+  </header>
+  <section class='bio'>
+    <img class='profile-image' src='./images/ME.jpg'>
+   <div>
+    <h1>Hello! My name is Cade Hansen. I'm a software developer.</h1>
+    <p>I am looking for an entry-level software engineering job. I graduated with a Bachelor of Science in Applied Technology from BYU-Idaho. In my studies, I focused on computer programming, web front-end development, and web back-end development. I would like to find a place that I can showcase what I have learned and develop a mastery of skills. </p>
+    <a class='btn' href='#recent-work' target='blank'>See my work</a>
+    </div>
+  </section>
+  <section class='recent-work' id='recent-work'>
+    <h1>Recent Work</h1>
+    <article>
+      <div>
+      <h3>My Scripture Journal</h3>
+      <p>
+        This project was created with the C# CRUD feature on the back-end and HTML on the front-end. It uses the SQL database to store the entries. I also styled the page with Bootstrap and a little CSS.
+      </p>
+      <ul>
+        <li>The page keeps track of any scriptures that stand out to the user by allowing the user to create an entry.</li>
+        <li>The user enters the book, chapter, and verse of scripture.</li>
+        <li>On the same page the user can enter and date and an entry on why they added that scripture to their journal page.</li>
+        <li>An Index page shows all of the entries. The user can edit, delete, search, or order the list by date or by book title.</li>
+      </ul>
+      <a href='https://github.com/codfish81/CIT365-W2023-HansenCade/tree/main/MyScriptureJournal' target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='./images/MyScriptureJournal.png'>
+    </article>
+    <article>
+      <div>
+      <h3>Admiral Trailers</h3>
+      <p>
+        This projet was written with Ruby on Rails using MongoDB as the database and Heroku as the API.
+      </p>
+      <ul>
+        <li>This web page/app helps move a company away from using spreadsheets to being able to enter and extract data that is saved from the page into a database.</li>
+        <li>The user is able to click on a trailer and see information about the trailer, what load is on the trailer, and where the trailer is located.</li>
+        <li>The user is also able to input and see what trucking company, with the truck number, is picking up that trailer.</li>
+        <li>Have a timer that the user can start to know how long it takes to load the trailer.</li>
+        <li>Make the page responive to different screen sizes, so that the user can move away from a sit down desk to using a tablet or smartphone.</li>
+      </ul>
+      <a href='https://www.github.com' target='blank'>GitHub Repo</a>
+      </div>   
+      <img class='article-image' src='./images/AdmiralTrailers.png'>
+    </article>
+    <article>
+      <div>
+      <h3>Timed</h3>
+      <p>
+        A team project where we developed an application that is written in Java. It would be avalible to run on Android devises.
+      </p>
+      <ul>
+        <li>This is an application that the user can used to set a timer on specific apps say for a child.</li>
+        <li>It gives the user a prompt when the time is almost up before the app shuts off.</li>
+        <li>The app will close once the designated time expires.</li>
+      </ul>
+      <a href='https://github.com/codfish81/timed' target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='./images/timed.png'>
+    </article>
+    <article>
+      <div>
+      <h3>Flavor Hub</h3>
+      <p>
+        This is a team project page that is primarly writen with CRUD in JavaScript. It used Render as an API and MongoDB as the database.
+      </p>
+      <ul>
+        <li>As the user you are able to login and find the recipes that you have entered.</li>
+        <li>Others can not see your recipes unless you decided to share them on the community page.</li>
+        <li>The user can add, edit, or remove recipes that they have entered.</li>
+      </ul>
+      <a href='https://github.com/codfish81/CSE341TeamFinal' target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='./images/flavorhub.png'>
+    </article>
+    <article>
+      <div>
+      <h3>Tic Tac Toe</h3>
+      <p>
+        Code for a Tic Tac Toe game that can be played in the termial written in Python.
+      </p>
+      <ul>
+        <li>Simple Tic Tac Toe game that is played with two players.</li>
+        <li>Player 1 is prompted to go first by choosing a number that corresponds with the square. Player 2 then chooses a square.</li>
+        <li>Game continues until a player gets three in a row, a tie, or someones chooses to quit.</li>
+      </ul>
+      <a href='https://github.com/codfish81/TicTacToe' target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='./images/TicTacToe.png'>
+    </article>
+    <article>
+      <div>
+      <h3>Sudoku</h3>
+      <p>
+        This is a Sudoku program solver that is written in C++.
+      </p>
+      <ul>
+        <li>This program is displayed in the computers termial.</li>
+        <li>When run it diplays the orignal puzzle that needs to be solved.</li>
+        <li>Under that puzzle the solved puzzle is displayed.</li>
+        
+      </ul>
+      <a href='https://github.com/codfish81/sudoku' target='blank'>GitHub Repo</a>
+      </div>
+      <img class='article-image' src='./images/sudoku.png'>
+    </article>
+  </section>
+  <footer>
+      <ul>
+        <li>
+          <a href='https://www.linkedin.com/in/cade-hansen-62964a44/' target='blank'>
+            LinkedIn
+            <span class='link-icon'>
+              <i class='fa-brands fa-linkedin'></i>
+              <img class='footer-image' src='./images/LinkedIn_logo_initials.png'>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:0ea1a720-21f7-4283-91c8-33f7e9c89d28" target='blank'>
+            CV
+            <span class="link-icon">
+              <i class="fa-solid fa-user"></i>
+              <img class='footer-image' src='./images/resume.png'>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/codfish81" target='blank'>
+            GitHub
+            <span class="link-icon">
+              <i class="fa-brands fa-github"></i>
+              <img class='footer-image' src='./images/github.png'>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <p class="copywright">© 2024 Cade Hansen</p>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
